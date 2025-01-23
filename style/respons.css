@@ -210,47 +210,10 @@ font-weight: 400;
   border: none;
     background-color: transparent;
 }
-
-   /* .first-btn{
-  color: aqua;
-  font-size: 0.9rem;
-  font-weight: 700;
-  border: none;
-  margin-top: 15px;
-  background-color: transparent;
-   }
-   #hlu-btn{
-    border: none;
-   } */
-  
-   /* .second-btn{
-     color: blue;
-     font-size: 0.9rem;
-  font-weight: 700;
-  margin-top: 15px;
-   } */
-  
-   /* .third-btn{
-    color: crimson;
-    font-size: 0.9rem;
-    font-weight: 700;
-    margin-top: 15px;
-    
-  
-   } */
-/*   
-   .arrows{
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    padding: 80px 0 60px;
-   }
-    */
-
-    .arrow {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+  .arrow {
+       display: flex;
+      justify-content: center;
+      align-items: center;
         margin-top: 80px;
         margin-bottom: 80px;
         gap: 10px;
@@ -267,20 +230,12 @@ font-weight: 400;
 }
 
 .icon-r {
-    /* border: 1px solid; */
     background-color: #FEA301;
     color: white;
     font-size: 40px;
     border-radius: 70px;
-    /* border: 1px solid black; */
     padding: 40px;
-} 
-  /* .arrow-description{
-    padding: 10px;
-    border-radius: 60px;
-    background-color: #fea301;
-    color: white;
-  } */
+}
 
   /*  Story related */
 
@@ -363,8 +318,6 @@ font-weight: 400;
     font-size: 1rem;
     font-weight: 500;
     border: none;
-    /* margin-top: 160px;
-    margin-left: -270px; */
     margin-top: -30px;
     margin-left: 25px;
   }
@@ -373,21 +326,14 @@ font-weight: 400;
 #story-btn-1{
     background-color: #95B226;
     position: relative;
-    /* margin-top: 160px; */
-    /* margin-left: -270px; */
 }
 #story-btn-2{
     background-color: #5D58F0;
     position: relative;
-    /* margin-top: 160px; */
-    /* margin-left: -270px; */
 }
 #story-btn-3{
     background-color: #5D58F0;
-    /* position: absolute; */
     position: relative;
-    /* margin-top: 160px; */
-    /* margin-left: -270px; */
 }
 #story-btn-4{
     background-color: #95B226;
