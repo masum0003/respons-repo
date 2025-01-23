@@ -8,7 +8,7 @@
     background-color: #f7f7f7;
     
   }
-
+  /* header $ navbar */
   /* shared styles */
   body{
     max-width: 1440px;
@@ -40,6 +40,8 @@ font-weight: 700;
     display: none;
    }
 
+   /* Navbar related styles */
+   /* Navbar related styles */
    /* Navbar related styles */
 
   .nav-description{
@@ -78,7 +80,9 @@ font-weight: 700;
     list-style: none;
     padding-left: 32px;
   }
-
+/* humbugger menu */
+/* humbugger menu */
+/* humbugger menu */
   .primary-btn{
     background-color: rgb(255, 144, 14);
     color: white;
@@ -90,14 +94,16 @@ font-weight: 700;
   }
 
   /* Banner related styles */
-  main{
-    background-image: url(assets/bg.png);
+  /* Banner related styles */
+  /* Banner related styles */
+  
+  .main {
+    background-image: url('../images/bg.png');
   }
-
-  .main-bg{
+  /* .main-bg{
     background-image: url(assets/bg.png);
     background-color: #01acfd;
-  }
+  } */
 
   .banner-content{
     justify-content: space-between;
@@ -208,15 +214,14 @@ font-weight: 400;
         margin-top: 80px;
         margin-bottom: 80px;
         gap: 10px;
+      
     
     }
 .icon-l {
-    /* border: 1px solid; */
     background-color: #FEA301;
     color: white;
     font-size: 40px;
-    border-radius: 100px;
-    /* border: 1px solid black; */
+    border-radius: 70px;
     padding: 40px;
 
 }
@@ -226,7 +231,7 @@ font-weight: 400;
     background-color: #FEA301;
     color: white;
     font-size: 40px;
-    border-radius: 100px;
+    border-radius: 70px;
     /* border: 1px solid black; */
     padding: 40px;
 } 
@@ -277,9 +282,10 @@ font-weight: 400;
     background-color: #3cd8e8;
     margin-top: -50px;
     margin-left: 15px;
+
   }
 
-  .main-heading{
+.main-heading{
     font-size: 1.5rem;
     font-weight: 800;
     width: 80%;
@@ -317,10 +323,38 @@ font-weight: 400;
     font-size: 1rem;
     font-weight: 500;
     border: none;
+    /* margin-top: 160px;
+    margin-left: -270px; */
     margin-top: -30px;
-    margin-left: 10px;
+    margin-left: 25px;
   }
+  /* id: story button */
 
+#story-btn-1{
+    background-color: #95B226;
+    position: relative;
+    /* margin-top: 160px; */
+    /* margin-left: -270px; */
+}
+#story-btn-2{
+    background-color: #5D58F0;
+    position: relative;
+    /* margin-top: 160px; */
+    /* margin-left: -270px; */
+}
+#story-btn-3{
+    background-color: #5D58F0;
+    /* position: absolute; */
+    position: relative;
+    /* margin-top: 160px; */
+    /* margin-left: -270px; */
+}
+#story-btn-4{
+    background-color: #95B226;
+    position: relative;
+    /* margin-top: 160px;
+    margin-left: -270px; */
+}
   .story-heading{
     font-size: 1rem;
     font-weight: 800;
@@ -337,7 +371,10 @@ font-weight: 400;
   .story-gradient{
     max-width: 100%;
     align-items: center;
-    box-shadow: inset 34px -143px 650px -160px rgba(254, 163, 0, 1);
+    /* box-shadow: inset 34px -143px 650px -160px rgba(254, 163, 0, 1); */
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+
+   
   }
 
   /* Footer related styles */
@@ -360,6 +397,7 @@ font-weight: 400;
     width: 28%;
     height: 99px;
     padding-top: 42px;
+    filter: grayscale(50%);
   }
 
   .footer-title{
@@ -388,12 +426,13 @@ font-weight: 400;
     font-weight: 800;
     color: white;
     margin-bottom: 40px;
+    margin-left: 90px;
   }
 
   .ul-anc{
     list-style: none;
     text-align: start;
-    margin-left: 160px;
+    margin-left: 60px;
   }
 
   .footer-anc{
@@ -430,8 +469,8 @@ color: white;
 
  /* Marque  */
 
- 
- 
+/* Responsive */ 
+ /* Responsive */
  /* Responsive */
 @media screen and (max-width:576px){
     .school, .nav-links{
@@ -466,6 +505,11 @@ color: white;
   
     .secondary-btn{
       margin: 20px;
+      width: 197px;
+      height: 50px;
+      border-radius: 12px;
+      font-size: 20px;
+      font-weight: bold;
   
     }
   
@@ -474,7 +518,7 @@ color: white;
   
     }
   
-    .arrows, .first-stories{
+    .arrow, .first-stories{
       display: none;
     }
   
@@ -486,6 +530,7 @@ color: white;
       font-size: 0.5rem;
       font-weight: 400;
     }
+  
   
     .story-heading{
       font-weight: 800;
