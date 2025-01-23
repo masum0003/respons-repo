@@ -174,7 +174,44 @@ font-weight: 400;
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
   }
   
-   .first-btn{
+  .red-k{
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    margin-left: 70px;
+    background-color: transparent;
+  }
+  #read-k1 {
+    color: #64C8FF;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+
+}
+
+#read-k2 {
+  color: #F0AA00;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 3px;
+  border: none;
+    background-color: transparent;
+}
+
+#read-k3 {
+  color:  #8700FF;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 3px;
+  border: none;
+    background-color: transparent;
+}
+
+   /* .first-btn{
   color: aqua;
   font-size: 0.9rem;
   font-weight: 700;
@@ -182,22 +219,25 @@ font-weight: 400;
   margin-top: 15px;
   background-color: transparent;
    }
+   #hlu-btn{
+    border: none;
+   } */
   
-   .second-btn{
+   /* .second-btn{
      color: blue;
      font-size: 0.9rem;
   font-weight: 700;
   margin-top: 15px;
-   }
+   } */
   
-   .third-btn{
+   /* .third-btn{
     color: crimson;
     font-size: 0.9rem;
     font-weight: 700;
     margin-top: 15px;
     
   
-   }
+   } */
 /*   
    .arrows{
     display: flex;
